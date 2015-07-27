@@ -1,7 +1,6 @@
 #! /usr/bin/python
 # sum number of ktp
 
-
 data = raw_input('masukkan nomor KTP: ')
 # print data
 # print len(data)
@@ -13,5 +12,3 @@ data = raw_input('masukkan nomor KTP: ')
 for i in data:
    if i.isdigit():
 	print i
-
-# nanti tinggal dijumlah
