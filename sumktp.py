@@ -1,9 +1,8 @@
 #! /usr/bin/python
 # sum number of ktp
 
-import re
-
 data = raw_input('masukkan nomor KTP: ')
+<<<<<<< HEAD
 # print data
 # print len(data)
 
@@ -14,3 +13,8 @@ data = raw_input('masukkan nomor KTP: ')
 for i in data:
    if i.isdigit():
 	print i
+=======
+print data
+#d = str(data)
+print len(data)
+>>>>>>> origin/master
