@@ -1,0 +1,13 @@
+#! /usr/bin/python
+# sum number of ktp
+import re, locale
+
+data = raw_input('masukkan nomor KTP: ')
+print data
+ld = len(data)
+
+re.sub('[\W_]+', '', data)
+print data
+
+for i in range(ld):
+   print i, data[i]
