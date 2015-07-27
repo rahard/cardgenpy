@@ -1,7 +1,7 @@
 #! /usr/bin/python
 # sum number of ktp
 
-data = input('masukkan nomor KTP: ')
+data = raw_input('masukkan nomor KTP: ')
 print data
-d = str(data)
-print len(d)
+#d = str(data)
+print len(data)
