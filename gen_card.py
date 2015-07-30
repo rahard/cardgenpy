@@ -70,3 +70,11 @@ for i in range(len(my_array)):
    for j in range(len(my_array[i])):
        print my_array[i][j],
 
+from qrcode import *
+qr = QRCode(version=20, error_correction=ERROR_CORRECT_M)
+#qr = QRCode(version=20, error_correction=ERROR_CORRECT_Q)
+qr.add_data(my_array)
+qr.make()
+
+im = qr.make_image()
+im.save("id.png")
