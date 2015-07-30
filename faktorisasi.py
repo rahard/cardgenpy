@@ -2,6 +2,7 @@
 #
 # mencari set faktorisasi
 # suggested solution by jim geovedi
+from random import randint
 from itertools import product
 
 # n adalah index dari x
@@ -13,6 +14,6 @@ hasil = solve(jumlah)
 #print hasil
 print "ada %d solusi permutasi" % len(hasil)
 
-ke110 = hasil[110]
-print ke110
-print len(ke110)
+# pilih salah satu secara random
+pilihan = randint(0,len(hasil)-1)
+print pilihan, hasil[pilihan]
