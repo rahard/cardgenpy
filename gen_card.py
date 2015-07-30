@@ -40,9 +40,9 @@ for i in range(len(my_array)):
        #print my_array[i][j],
 
 #replace the first 3 numbers in array with sum of KTP number
-my_array[0][0] = str_data[0]
-my_array[0][1] = str_data[1]
-my_array[0][2] = str_data[2]
+my_array[0][0] = int(str_data[0])
+my_array[0][1] = int(str_data[1])
+my_array[0][2] = int(str_data[2])
 
 # memilih salah satu faktorisasi
 from random import randint
